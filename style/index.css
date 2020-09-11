@@ -1,1 +1,166 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END CSS RESET */
+/* END CSS RESET */
+/* END CSS RESET */
+/* END CSS RESET */
+/* END CSS RESET */
+/* END CSS RESET */
+/* END CSS RESET */
+
+
+header {
+    background-color: #44A4DE;
+    height: 200px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: left;
+    color: white;
+    padding: 30px;
+    font-family: Pacifico;
+}
+
+.topnav {
+    background-color: 44A4DE;
+    overflow: hidden;
+    margin-left: 40px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Architects Daughter;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: white;
+    color:#44A4DE;
+  }
+.section1 {
+    flex-flow: ;
+    height: 500px;
+}
+.img1 {
+    padding: 20px;
+    float: left;
+}
+h2 {
+    float: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-family: Architects Daughter;
+}
+
+.projectsbutton {
+    color: #f2f2f2;
+    background-color: #44A4DE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Architects Daughter;
+}
+.projectsbutton:hover {
+    background-color: #F1F1F1;
+    color: #44A4DE;
+}
+p {
+    font-family: architects Daughter;
+    padding: 30px;
+    font-size: 25px;
+}
+.title {
+    font-family: Architects Daughter;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.section2 {
+    flex-flow: column nowrap;
+}
+.projectimg {
+    display: inline-block;
+    height: 500px;
+    margin: 50px;
+    width: 500px;
+    text-align: center;
+}
+footer {
+    background-color: #44A4DE;
+    height: 150px;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Architects Daughter;
+    padding: 20px;
+}
+.footerbutton {
+    color: white;
+    background-color:#44A4DE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Architects Daughter;
+}
+.footerbutton:hover {
+    background-color: white;
+    color: #44A4DE;
+}
+footer {
+    text-align: center;
+}
