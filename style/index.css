@@ -50,32 +50,34 @@ table {
 /* END CSS RESET */
 /* END CSS RESET */
 
+html {
+    font-size: 16px;
+}
 
 header {
     background-color: #44A4DE;
-    height: 200px;
+    height: 12.5rem;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 5rem;
     text-align: left;
     color: white;
-    padding: 30px;
+    padding: 1.875rem;
     font-family: Pacifico;
 }
 
 .topnav {
     background-color: 44A4DE;
     overflow: hidden;
-    margin-left: 40px;
+    padding: 1rem;
   }
   .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1rem 1rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2rem;
     font-family: Architects Daughter;
   }
   
@@ -88,19 +90,18 @@ h1 {
     color:#44A4DE;
   }
 .section1 {
-    flex-flow: ;
-    height: 500px;
+    height: 31.25rem;
 }
 .img1 {
-    padding: 20px;
+    padding: 1.25rem;
     float: left;
 }
 h2 {
     float: center;
-    font-size: 50px;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-bottom: 25px;
+    font-size: 3.125rem;
+    padding-top: 6.25rem;
+    padding-left: 3.125rem;
+    padding-bottom: 1.5625rem;
     font-family: Architects Daughter;
 }
 
@@ -108,9 +109,9 @@ h2 {
     color: #f2f2f2;
     background-color: #44A4DE;
     text-align: center;
-    padding: 14px 16px;
+    padding: .875rem 1rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2rem;
     font-family: Architects Daughter;
 }
 .projectsbutton:hover {
@@ -119,13 +120,13 @@ h2 {
 }
 p {
     font-family: architects Daughter;
-    padding: 30px;
-    font-size: 25px;
+    padding: 1.875rem;
+    font-size: 1.5625rem;
 }
 .title {
     font-family: Architects Daughter;
-    padding: 20px;
-    font-size: 30px;
+    padding: 1.25rem;
+    font-size: 1.875rem;
     text-align: center;
 }
 .section2 {
@@ -133,28 +134,32 @@ p {
 }
 .projectimg {
     display: inline-block;
-    height: 500px;
-    margin: 50px;
-    width: 500px;
+    height: 20vw;
+    margin: 3.125rem;
+    width: 20vw;
+    margin-bottom: 6rem;
     text-align: center;
+}
+.projectimg img {
+    width: 20vw;
 }
 footer {
     background-color: #44A4DE;
-    height: 150px;
+    height: 9.375rem;
 }
 h3 {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     font-family: Architects Daughter;
-    padding: 20px;
+    padding: 1.25rem;
 }
 .footerbutton {
     color: white;
     background-color:#44A4DE;
     text-align: center;
-    padding: 14px 16px;
+    padding: .875rem 1rem;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.4rem;
     font-family: Architects Daughter;
 }
 .footerbutton:hover {
@@ -163,4 +168,100 @@ h3 {
 }
 footer {
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    header {
+        background-color: white;
+    }
+    h1 {
+        color: #44A4DE;
+        text-align: center;
+        font-size: 10vw;
+        margin-bottom: 1rem;
+
+    }
+    .topnav a {
+        color: #44A4DE;
+        background-color: white;
+        display: block; 
+        padding: .875rem; 
+        text-decoration: none; 
+        width: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid lightgrey;
+        font-size: 2.5vw;
+    }
+    .img1 {
+        margin-top: 11rem;
+    }
+    .topnav a.active {
+        color: white;
+        background-color:#44A4DE;
+        display: block; 
+        padding: .875rem; 
+        text-decoration: none; 
+      }
+    .topnav a.active:hover {
+        color: white;
+        background-color:#44A4DE;
+        display: block; 
+        padding: .875rem; 
+        text-decoration: none; 
+    }
+    .topnav a:hover {
+        color: white;
+        background-color:#44A4DE;
+        display: block; 
+        padding: .875rem; 
+        text-decoration: none; 
+    }
+    .img1 {
+        width: 95vw;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section1 {
+        text-align: center;
+    }
+    h2 {
+        float: none;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 1.5rem;
+        height: auto;
+        margin-top: 0;
+    }
+    .section2 {
+        display: inline-block;
+        margin-top: 18rem;
+        align-items: center;
+        align-content: center;
+    }
+    .projectimg img {
+        width: 32vw;
+    }
+    .projectimg {
+        height: auto;
+        margin: 1rem;
+        padding-left: 1rem;
+        width: 40%;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .img1 {
+        width: 90vw;
+        margin: none;
+    }
+    .projectimg {
+        margin-left: 1rem;
+        width: 33vw;
+    }
+    div .projectimg {
+        padding-left: 0;
+    }
 }
